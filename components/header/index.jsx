@@ -103,18 +103,16 @@ const MenuItem = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 10px;
 
   &:hover ${SmallMenuWrapper} {
     display: flex;
-    position: absolute;
     flex-direction: column;
     max-width: max-content;
-    margin-top: 102px;
   }
   &:hover {
-    .mainMenu {
-      margin-bottom: 102px;
-    }
+    justify-content: flex-start;
+    padding: 0px 10px 10px 10px;
   }
 `;
 
