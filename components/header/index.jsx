@@ -11,35 +11,7 @@ const signikaNegative = Signika_Negative({
 const Header = () => {
   return (
     <HeaderWrapper>
-      <LeftContentWrapper>
-        <LogoWrapper>
-          <Logo src={logoImage.src}></Logo>
-        </LogoWrapper>
-        <MenuWrapper>
-          <MenuItem>Home</MenuItem>
-          <MenuItem>
-            Story
-            <SmallMenuWrapper className="item">
-              <div>Event</div>
-              <div>The world</div>
-              <div>Witcher schools</div>
-            </SmallMenuWrapper>
-          </MenuItem>
-          <MenuItem>
-            About
-            <SmallMenuWrapper className="item">
-              <span>Content</span>
-            </SmallMenuWrapper>
-          </MenuItem>
-          <MenuItem>
-            Forum
-            <SmallMenuWrapper className="item">
-              <span>Content</span>
-            </SmallMenuWrapper>
-          </MenuItem>
-        </MenuWrapper>
-      </LeftContentWrapper>
-      <RightContentWrapper>INFOR</RightContentWrapper>
+  
     </HeaderWrapper>
   );
 };

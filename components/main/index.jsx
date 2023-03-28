@@ -4,7 +4,7 @@ import Header from "../header/index";
 const MainPageWrapper = styled.div`
     width: 100vw;
     height: 100vh;
-    background: #41c98952;
+    background: #000000;
     display: flex;
     justify-content: center;
     
