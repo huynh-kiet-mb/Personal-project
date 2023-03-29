@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Header from "../header/index";
+
 // Main page wrapper
 const MainPageWrapper = styled.div`
     width: 100vw;
@@ -7,17 +8,18 @@ const MainPageWrapper = styled.div`
     background: #000000;
     display: flex;
     justify-content: center;
+    color: #FFFFFF;
     
 `;
 
-const MainPage = () => {
+const MainLayout = ({children}) => {
     return(
         <MainPageWrapper>
-            <Header/>
+            {children}
         </MainPageWrapper>
     );
 }
 
-export default MainPage;
+export default MainLayout;
 
 
