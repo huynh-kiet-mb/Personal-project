@@ -1,9 +1,9 @@
 
 
-const CvPage = () => {
+const ExperiencePage = () => {
     return(
-        <h1>Page 1</h1>
+        <h1>Experience</h1>
     );
 };
 
-export default  CvPage;
+export default  ExperiencePage;

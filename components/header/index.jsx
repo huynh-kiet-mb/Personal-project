@@ -12,10 +12,6 @@ const Header = () => {
         {navLinks.map((link, index) =>
         (    <StyledLink key={index} href={link.path}>{link.name}</StyledLink>)
         )}
-    
-        {/* <StyledLink>Projects</StyledLink>
-        <StyledLink>About me</StyledLink>
-        <StyledLink>Contact</StyledLink> */}
       </HeaderBar>
     </HeaderWrapper>
   );
