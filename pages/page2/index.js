@@ -3,7 +3,7 @@ import * as React from 'react';
 
 const Page2 = () => {
     return(
-        <h1>Page2</h1>
+        <h1>Page2a</h1>  
     );
 };
 
