@@ -4,19 +4,19 @@ export const navLinks = [
     path: "/",
   },
   {
-    name: "Experience",
-    path: "/experience",
+    name: "Page1",
+    path: "/page1",
   },
   {
-    name: "Skills",
-    path: "/skill",
+    name: "Page2",
+    path: "/page2",
   },
   {
-    name: "About me",
-    path: "/about-me",
+    name: "Page3",
+    path: "/page3",
   },
   {
-    name: "Contact",
-    path: "/contact",
+    name: "Page4",
+    path: "/page4",
   },
 ];
