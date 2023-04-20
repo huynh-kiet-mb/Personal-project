@@ -3,23 +3,23 @@ import axiosClient from "../axiosClient";
 const tempApis = {
     // GET
     getAll: (params) => {
-        const url = '/temps';
+        const url = '/products';
         return axiosClient.get(url, { params });
     },
 
     get: (id) => {
-        const url = `/temps/${id}`;
+        const url = `/products/${id}`;
         return axiosClient.get(url);
     },
 
     // POST
     post: (params) => {
-        const url = '/temps';
+        const url = '/products';
         return axiosClient.post(url, { params });
     },
 
     postFormData: (params) => {
-        const url = '/temps';
+        const url = '/products';
         const formData = new FormData();
         // Get data files from params (need to refactor for good)
         // for (let index = 0; index < parmas.length; index++) {
@@ -30,12 +30,12 @@ const tempApis = {
 
     // PUT
     put: (id, params) => {
-        const url = `/temps/${id}`;
+        const url = `/products/${id}`;
         return axiosClient.put(url, { params });
     },
 
     putForm: (id, params) => {
-        const url = `/temps/${id}`;
+        const url = `/products/${id}`;
         const formData = new FormData();
         // Get data files from params (need to refactor for good)
         // for (let index = 0; index < parmas.length; index++) {
@@ -46,7 +46,7 @@ const tempApis = {
 
     // DELETE (Just for demo purposes)
     delete: (id) => {
-        const url = `/temps/${id}`;
+        const url = `/products/${id}`;
         return axiosClient.delete(url);
     }
 }
