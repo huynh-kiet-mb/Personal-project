@@ -17,6 +17,6 @@ export const navLinks = [
   },
   {
     name: "Page4",
-    path: "/page4",
+    path: "/page4", 
   },
 ];
