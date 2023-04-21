@@ -1,10 +1,11 @@
 import axios, { isCancel, AxiosError } from 'axios';
 import queryString from 'query-string';
 import swal from "sweetalert2";
+import { BASE_URL } from '../../utils/const';
 
 
 const axiosClient = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: BASE_URL,
     headers: {
         'content-type': 'application/json',
     },
@@ -13,8 +14,8 @@ const axiosClient = axios.create({
 
 axiosClient.interceptors.request.use(async (config) => {
     // Handle token here ...
-    const token = JSON.parse(localStorage.getItem('TOKEN'));
-    config.headers.Authorization = `Bearer ${token}`;
+    // const token = JSON.parse(localStorage.getItem('TOKEN'));
+    // config.headers.Authorization = `Bearer ${token}`;
     return config;
 })
 axiosClient.interceptors.response.use((response) => {
