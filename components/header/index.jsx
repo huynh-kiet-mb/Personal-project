@@ -60,7 +60,7 @@ const StyledLink = styled(Link)`
     left: ${props => props.leftPadding? props.leftPadding : "30px" };
     opacity: 0;
     height: 0;
-    width: 10.7%;
+    width: 115px;
     background: rgba(255, 255, 255, 0.11);
     border-top: 5px solid #01b3a7;
     transform: translate3d(-100%, 0, 0);
