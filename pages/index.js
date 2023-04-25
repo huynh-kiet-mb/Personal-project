@@ -21,8 +21,8 @@ const config = [
 ]
 
 export default function Home() {
-  const [count, setCount] = useState(0);
+
   return (
-    <Slider config={config}/>
+    <></>
   )
 }
